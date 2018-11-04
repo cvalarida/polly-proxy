@@ -25,11 +25,12 @@ records/
     www.example.com/
       path/
         to/
-          file
+          file.json
+    www.example.com.json
   POST/
 ```
 
-Not sure how to differentiate two POST bodies yet.
+Note: I'm not sure how to differentiate two POST bodies yet.
 
 ### Playback
 
