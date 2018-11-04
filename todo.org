@@ -1,0 +1,21 @@
+* DONE Implement record mode
+  CLOSED: [2018-11-03 Sat 21:23]
+** DONE Record the response
+   CLOSED: [2018-11-03 Sat 17:05]
+** DONE Don't record a "proper" HTTP response, but rather a json blob of all the things
+   CLOSED: [2018-11-03 Sat 20:37]
+*** This should make it easier to play back
+* DONE Implement playback mode
+  CLOSED: [2018-11-03 Sat 20:38]
+** DONE Play back the recorded response
+   CLOSED: [2018-11-03 Sat 20:38]
+* TODO Implement the options file
+** One idea was for a whitelist / blacklist for hosts to pass through the proxy
+** Another is the base records directory path
+* TODO Time the response
+** TODO Record the response time
+** TODO Play back the recorded response with the recorded delay
+* TODO Use `.request()` instead of `.get()` in `server.fetch()`
+
+--- Bugs ---
+All squashed so far!
