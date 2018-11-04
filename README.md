@@ -11,7 +11,7 @@ Polly Proxy can be run in two modes: Recording and Playback. Recording, as the n
 To start out, we'll want to record some requests and responses.
 
 ```bash
-polly --mode=recording
+./polly.js --mode=recording
 ```
 
 At this point, the server is started, so we need to route our traffic through it. Consult the documentation for your operating system to configure your HTTP proxy to pass the traffic through Polly Proxy.
@@ -37,7 +37,7 @@ Note: I'm not sure how to differentiate two POST bodies yet.
 Once we have some responses recorded, we can stop the server and fire it up again in playback mode.
 
 ```bash
-polly
+./polly.js
 ```
 
 We could specify `--mode=playback`, but it's the default mode, so we don't need to.
