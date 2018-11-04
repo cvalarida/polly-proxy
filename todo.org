@@ -16,6 +16,3 @@
 ** TODO Record the response time
 ** TODO Play back the recorded response with the recorded delay
 * TODO Use `.request()` instead of `.get()` in `server.fetch()`
-
---- Bugs ---
-All squashed so far!
