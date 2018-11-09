@@ -2,6 +2,8 @@
 
 Polly is a parrot. Once you teach her how to answer your requests, she'll faithfully parrot back what she knows.
 
+This is very much a work in progress. If you find any bugs, please let me know! I whipped it up over the weekend in hopes it would be helpful.
+
 ## The modes
 
 Polly Proxy can be run in two modes: Recording and Playback. Recording, as the name suggests, records responses to the requests passed through the proxy. Playback, predictably, plays the recorded responses back.
